@@ -47,7 +47,7 @@ section#login {
 
 section#login div#imagem {
   display: block;
-  background: #3b939e url(/imagens/login-image.jpg) no-repeat;
+  background: #5b81c7 url(/imagens/login-image.jpg);
   height: 200px;
   background-size: cover;
   background-position: center;
