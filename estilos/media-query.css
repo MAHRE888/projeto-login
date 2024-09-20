@@ -27,9 +27,23 @@
   section#imagem {
     float: left;
     width: 50%;
+    object-position: bottom;
+    background-size: contain;
   }
 
   section#formulario {
     width: 50%;
+  }
+  section#login > div#imagem {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-size: cover; /* Faz com que a imagem cubra todo o container */
+    background-position: center center; /* Centraliza a imagem no container */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+  }
+  p {
+    text-align: center;
+    padding: 10px;
   }
 }
