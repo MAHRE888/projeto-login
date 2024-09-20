@@ -16,7 +16,7 @@ Lilas: #5f2c82
 
 body,
 html {
-  background-color: #5b81c7;
+  background-color: #315eb3;
   height: 100vh;
   width: 100vw;
 }
@@ -47,7 +47,7 @@ section#login {
 
 section#login div#imagem {
   display: block;
-  background: #5b81c7 url(../imagens/login-image.png);
+  background: #224b97 url(../imagens/login-image.png);
   height: 200px;
   background-size: cover;
   background-position: center;
