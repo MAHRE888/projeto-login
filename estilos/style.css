@@ -14,46 +14,48 @@ Lilas: #5f2c82
   padding: 0px;
 }
 
-body,
-html {
-  background-color: #1850ca;
-  height: 100vh;
-  width: 100vw;
-}
-h1 {
-  text-align: center;
-}
-p {
-  text-align: justify;
-}
-main {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-}
+@media screen (max-width: 600px) {
+  body,
+  html {
+    background-color: #1850ca;
+    height: 100vh;
+    width: 100vw;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+  main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
 
-section#login {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  height: 600px;
-  width: 300px;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.616);
-}
+  section#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 80vh;
+    width: 90vw;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.616);
+  }
 
-section#login div#imagem {
-  display: block;
-  background: #224b97 url(../imagens/login-image.png);
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-}
+  section#login div#imagem {
+    display: block;
+    background: #224b97 url(../imagens/login-image.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
 
-section#login div#formulario {
-  display: block;
-  padding: 10px;
+  section#login div#formulario {
+    display: block;
+    padding: 10px;
+  }
 }
