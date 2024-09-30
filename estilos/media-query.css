@@ -42,7 +42,7 @@
     width: 50%;
   }
   section#login > div#imagem {
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
     background-size: cover; /* Faz com que a imagem cubra todo o container */
