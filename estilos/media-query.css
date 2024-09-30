@@ -2,6 +2,9 @@
 
 /*Tablets*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: linear-gradient(to top, #1850ca, #e6e6e6);
+  }
   section#login {
     width: 90vw;
   }
@@ -20,8 +23,12 @@
 /*Telas grandes*/
 
 @media screen and (min-width: 992px) {
+  body {
+    background-image: linear-gradient(to top, #1850ca, #e6e6e6);
+  }
   section#login {
     width: 950px;
+    transition: width 0.3s, heigth 0.3s;
   }
 
   section#imagem {
