@@ -13,8 +13,8 @@ Lilas: #5f2c82
   margin: 0px;
   padding: 0px;
 }
-
-@media screen (max-width: 600px) {
+/*Config geral celular*/
+@media screen {
   body,
   html {
     background-color: #1850ca;
@@ -39,8 +39,8 @@ Lilas: #5f2c82
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    height: 80vh;
-    width: 90vw;
+    height: 600px;
+    width: 300px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.616);
@@ -58,4 +58,7 @@ Lilas: #5f2c82
     display: block;
     padding: 10px;
   }
+}
+/*Vai ajudar quando estiver deitado, telefone*/
+@media only screen and (orientation: landscape) and (max-width: 900px) {
 }
