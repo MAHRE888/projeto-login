@@ -58,6 +58,9 @@ Lilas: #5f2c82
     display: block;
     padding: 10px;
   }
+  .campo {
+    text-align: center;
+  }
 }
 /*Vai ajudar quando estiver deitado, telefone*/
 @media only screen and (orientation: landscape) and (max-width: 900px) {
