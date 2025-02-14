@@ -114,3 +114,16 @@ div > a.botao > i {
   /*config tamanho do icon*/
   font-size: 1.1em;
 }
+div.campo > input {
+  background-color: #6794d8;
+  font-size: 1em;
+  padding: 4px;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  width: 184px;
+  transform: translateY(-5px);
+}
+div > .material-symbols-outlined {
+  font-size: 2em;
+}

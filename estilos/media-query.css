@@ -19,6 +19,18 @@
     float: right;
     width: 65%;
   }
+
+  div.campo > input {
+    width: 310px;
+  }
+
+  form > div.campo > input form > div > .botao {
+    margin-left: 23%;
+  }
+
+  form > div > .botao {
+    margin-left: 90px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -44,11 +56,22 @@
     width: 50%;
   }
 
+  div.campo > input {
+    width: 350px;
+  }
   div#formulario > p {
     font-size: 1.2em;
   }
 
   form > div > .botao {
     margin-left: 110px;
+  }
+
+  form > div.campo > span {
+    font-size: 2.5em;
+  }
+
+  form > div.campo > input {
+    transform: translateY(-14px);
   }
 }
