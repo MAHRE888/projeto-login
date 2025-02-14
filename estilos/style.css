@@ -12,28 +12,29 @@ html,
 body {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(255, 255, 255);
+  background-color: #052759d2;
 }
 main {
   width: 100vw;
   height: 100vh;
 }
 section#login {
-  position: absolute;
+  transition: width 0.4s, height 0.4s; /*altura com H*/
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+  border-radius: 20px;
   top: 50%;
   left: 50%;
-  background-color: white;
-  width: 250px; /*largura*/
-  height: 500px; /*altura*/
-  border-radius: 20px;
+  width: 260px; /*largura*/
+  height: 540px; /*altura*/
   transform: translate(-50%, -50%);
+  background-color: white;
   overflow: hidden;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
-  transition: width 0.4s, height 0.4s; /*altura com H*/
+  position: absolute;
   transition-timing-function: ease;
 }
 
 section#login > div#imagem {
+  /*config da imagem*/
   background: blue url(../imagens/foto.jpg) no-repeat;
   background-size: cover;
   height: 200px;
@@ -41,6 +42,75 @@ section#login > div#imagem {
 }
 
 section#login > div#formulario {
+  /*config do formulario*/
   display: block;
   padding: 10px;
+}
+
+div.campo {
+  background-color: #052659;
+  padding: 10px;
+  height: 60px;
+  color: white;
+  margin: 5px 0px;
+  border-radius: 10px;
+}
+div.campo > label {
+  display: none;
+}
+
+div > input[type="submit"] {
+  /*config do botao entrar*/
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #052659;
+  display: block;
+  color: white;
+  margin-left: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+div > input[type="submit"]:hover {
+  /*config do botao entrar*/
+  background-color: rgba(204, 204, 204, 0.603);
+  color: black;
+}
+div#formulario > h1 {
+  /*config do titulo*/
+  text-align: center;
+}
+
+div#formulario > p {
+  /*config do paragrafo do formulario*/
+  text-align: justify;
+  padding-bottom: 7px;
+  font-size: 1em;
+}
+
+div > a.botao {
+  /*config do link/botao*/
+  background-color: #6794d8;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  padding: 9px;
+  width: 200px;
+  margin-top: 2px;
+  margin-left: 15px;
+}
+
+form a.botao:hover {
+  /*config do link/botao*/
+  background-color: rgba(204, 204, 204, 0.603);
+  color: black;
+}
+
+div > a.botao > i {
+  /*config tamanho do icon*/
+  font-size: 1.1em;
 }

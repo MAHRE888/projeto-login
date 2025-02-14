@@ -47,4 +47,8 @@
   div#formulario > p {
     font-size: 1.2em;
   }
+
+  form > div > .botao {
+    margin-left: 110px;
+  }
 }
